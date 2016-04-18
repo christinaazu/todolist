@@ -1,0 +1,30 @@
+body, form, input, button {
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+body {
+	background: #EEE;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	max-width: 30em;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 2px;
+	background: white;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+a {
+	visibility: hidden;
+}
+li:hover a {
+	visibility: visible;
+}
+.complete {
+	color: #999;
+	background-color: #efefef;
+	text-decoration: line-through;
+}
